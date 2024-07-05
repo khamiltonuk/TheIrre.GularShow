@@ -31,6 +31,13 @@ export default function Home() {
         up. Irregular identifies that mistakes in art are a made up concept in a
         wholesome and 0 bullshit tolerance environment.
       </p>
+      <p>
+        <strong>Why: </strong>
+        In a harsh big city environment it can be hard to feel seen, understood
+        or even acknowledged. We want to build community from the bottom up,
+        through shared experiences, fun and harsh topics and deep as well as
+        light conversations.
+      </p>
       <a
         href="https://www.instagram.com/the.irre.gular.show/"
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
