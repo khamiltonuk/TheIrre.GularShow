@@ -104,8 +104,8 @@ export default function Home() {
 
       <hr className="my-8" />
 
-      <ul>
-        <li>
+      <ul className="flex w-full justify-center align-center text-center text-sm font-medium text-gray-500">
+        <li className="flex-1 flex text-center justify-center">
           <a
             href="https://www.instagram.com/the.irre.gular.show/"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 dark:hover:border-neutral-700 dark:hover:bg-neutral-800/30"
@@ -123,7 +123,7 @@ export default function Home() {
             />
           </a>
         </li>
-        <li>
+        <li className="flex-1 flex text-center justify-center">
           <a
             href="https://www.eventbrite.de/cc/the-irregular-show-sason-3-4272873"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 dark:hover:border-neutral-700 dark:hover:bg-neutral-800/30"
@@ -132,7 +132,7 @@ export default function Home() {
           >
             <span className="sr-only">Tickets</span>
             <Image
-              className="h-8 w-8"
+              className=""
               src="/eventbrite_logo.svg"
               alt="Eventbrite Logo"
               width={145}
