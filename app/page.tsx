@@ -20,10 +20,10 @@ export default function Home() {
         height="315"
         src="https://www.youtube.com/embed/_M9WkEJisHo?si=X7Ie44X0AOJFnEPc"
         title="YouTube video player"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
       ></iframe>
 
       <hr className="my-8" />
