@@ -1,0 +1,56 @@
+{
+  "Metadata": {
+    "title": "The Irregular Show",
+    "description": "Drag-Show"
+  },
+  "HomePage": {
+    "logoAlt": "The Irregular Show Logo",
+    "videoTitle": "YouTube-Videoplayer",
+    "description": "Die Irre.Gular Show ist eine monatliche Varieté-Show im Cabaret-Stil (Mai-September), die Drag, Zirkus, Musik, Comedy und Feuerperformances kombiniert. 2026 markiert die vierte Saison im Veranstaltungsort Nirgendwo in Friedrichshain. Das Projekt zielt darauf ab, weiterhin einen sicheren, inklusiven Raum zu schaffen, in dem queere und neurodivergente Menschen sichtbar, verstanden und gefeiert werden. Jede Show erkundet ein gewähltes Thema, präsentiert zwei Gastperformer, besteht aus zwei Auftritten pro Hälfte, einer Pause und einer abschließenden Feuershow und feiert Fehler als natürlichen Teil des kreativen Prozesses.",
+    "shows": "Shows",
+    "shows2023": "Shows 2023",
+    "shows2024": "Shows 2024",
+    "shows2025": "Shows 2025",
+    "shows2026": "Shows 2026",
+    "tbc": "(Wird noch bekannt gegeben)",
+    "time": "Zeit:",
+    "doors": "19:00 Einlass",
+    "showStarts": "20:00 Showbeginn",
+    "where": "Wo:",
+    "venue": "Nirgendwo, Helsingforser Str. 10, 10243 Berlin (Neben dem Berghain)",
+    "tickets": "Tickets:",
+    "ticketsInfo": "Online oder an der Abendkasse erhältlich - niemand wird wegen fehlendem Geld abgewiesen.",
+    "ticketsLabel": "Tickets",
+    "whoWeAre": "Wer wir sind:",
+    "followUs": "Folge uns:",
+    "instagram": "Instagram"
+  },
+  "Shows2023": {
+    "show1": "Donnerstag, 27. Juli 2023 (Thema: Kleber)",
+    "show2": "Donnerstag, 30. August 2023 (Thema: Damals)",
+    "show3": "Donnerstag, 28. September 2023 (Thema: Trauma)",
+    "show4": "Freitag, 29. Dezember 2023 (Thema: Chimbo Limbo)"
+  },
+  "Shows2024": {
+    "show1": "Donnerstag, 13. Juni 2024 (Thema: Insekten)",
+    "show2": "Donnerstag, 11. Juli 2024 (Thema: Monster)",
+    "show3": "Donnerstag, 8. August 2024 (Thema: Mittelalter)",
+    "show4": "Donnerstag, 12. September 2024 (Thema: Clown-Übernahme)"
+  },
+  "Shows2025": {
+    "show1": "Donnerstag, 22. Mai 2025 (Thema: Pilze)",
+    "show2": "Donnerstag, 11. Juni 2025 (Thema: Dysmorphie/Dysphorie)",
+    "show3": "Donnerstag, 24. Juli 2025 (Thema: Geburtstag)",
+    "show4": "Donnerstag, 18. September 2025 (Thema: Magie)"
+  },
+  "Bios": {
+    "alec": {
+      "name": "Alec:",
+      "bio": "Host und Performer: Freiberuflicher Künstler mit Erfahrung in Drag, Feuerkunst, Comedy, Clownerie und Kulturpädagogik, seit 2008 im Kulturmanagement für Theater, Festivals und Workshops mit Fokus auf gesellschaftliches Engagement und Bildung tätig, studiert Kulturmanagement (B.A., aktuell M.A. an der Leuphana in Kooperation mit dem Goethe-Institut), arbeitet als Sozialarbeiter für Menschen mit Beeinträchtigung und produziert die Irre.Gular Show sowie seit 2024 den Bulaban Zirkus Berlin."
+    },
+    "kristian": {
+      "name": "Kristian:",
+      "bio": "Host und Performer: Kristian ist eine in London geborene Drag Queen, die seit 2017 in Berlin lebt. Bekannt für ihren scharfen Witz und ihre lebendigen Performances, nutzt Kristian gelegentlich Deutsch, ist aber unbestreitbar lustiger, wenn sie ihre einzigartige Comedy auf Englisch präsentiert. Als echte Liebhaberin aller kreativen Dinge spiegelt sich ihre Leidenschaft fürs Handwerk in den aufwendigen, selbstgemachten Outfits wider, die sie auf der Bühne trägt - jedes Stück ein Beweis für ihr Engagement für Mode und Performance. 2023 wurde sie Zweitplatzierte beim Berlin New Stand-Up Comedian Award und setzte sich unter mehr als 90 Teilnehmenden hervor. Ihr Comedy-Stil ist eine unterhaltsame Mischung aus camp, silly und gut und hat ihr den Ruf als eine der spannendsten und unberechenbarsten Performerinnen Berlins eingebracht."
+    }
+  }
+}

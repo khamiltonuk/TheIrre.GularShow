@@ -1,0 +1,56 @@
+{
+  "Metadata": {
+    "title": "The Irregular Show",
+    "description": "Drag show"
+  },
+  "HomePage": {
+    "logoAlt": "The Irregular Show Logo",
+    "videoTitle": "YouTube video player",
+    "description": "The Irre.Gular Show is a monthly cabaret-style variety show (May-September) that combines drag, circus, music, comedy, and fire performances. 2026 marks its fourth season at the venue Nirgendwo in Friedrichshain. The project aims to continue creating a safe, inclusive space where queer and neurodivergent people are visible, understood, and celebrated. Each show explores a chosen theme, features two guest performers, consists of two performances per half, an intermission, and a closing fire act, and celebrates mistakes as a natural part of the creative process.",
+    "shows": "Shows",
+    "shows2023": "Shows 2023",
+    "shows2024": "Shows 2024",
+    "shows2025": "Shows 2025",
+    "shows2026": "Shows 2026",
+    "tbc": "(TBC)",
+    "time": "Time:",
+    "doors": "19:00 Doors",
+    "showStarts": "20:00 Show starts",
+    "where": "Where:",
+    "venue": "Nirgendwo, Helsingforser Str. 10, 10243 Berlin (Next to Berghain)",
+    "tickets": "Tickets:",
+    "ticketsInfo": "Available online or on the door and no one turned away due to lack of funds.",
+    "ticketsLabel": "Tickets",
+    "whoWeAre": "Who we are:",
+    "followUs": "Follow us:",
+    "instagram": "Instagram"
+  },
+  "Shows2023": {
+    "show1": "Thursday 27th July 2023 (Theme: Glue)",
+    "show2": "Thursday 30th August 2023 (Theme: Way back when)",
+    "show3": "Thursday 28th September 2023 (Theme: Trauma)",
+    "show4": "Friday 29th December 2023 (Theme: Chimbo limbo)"
+  },
+  "Shows2024": {
+    "show1": "Thursday 13nd June 2024 (Theme: Insects)",
+    "show2": "Thursday 11th July 2024 (Theme: Monsters)",
+    "show3": "Thursday 8th August 2024 (Theme: Medieval)",
+    "show4": "Thursday 12th September 2024 (Theme: Clown takeover)"
+  },
+  "Shows2025": {
+    "show1": "Thursday 22nd May 2025 (Theme: Mushroom)",
+    "show2": "Thursday 11th June 2025 (Theme: Dysmorphia/ Dysphoria)",
+    "show3": "Thursday 24th July 2025 (Theme: Birthday)",
+    "show4": "Thursday 18th September 2025 (Theme: Magic)"
+  },
+  "Bios": {
+    "alec": {
+      "name": "Alec:",
+      "bio": "Host and Performer: Freelance artist with experience in drag, fire art, comedy, clowning, and cultural education. Active in cultural management for theaters, festivals, and workshops since 2008, focusing on social engagement and education. Studying Cultural Management (B.A., currently M.A. at Leuphana in cooperation with the Goethe-Institut), works as a social worker for people with disabilities and produces the \"Irre.Gular Show\" as well as the Bulaban Circus Berlin since 2024."
+    },
+    "kristian": {
+      "name": "Kristian:",
+      "bio": "Host and Performer: Kristian is a London-born drag queen who has been living in Berlin since 2017. Known for her sharp wit and lively performances, Kristian occasionally uses German but is undeniably funnier when presenting her unique comedy in English. As a true lover of all things creative, her passion for craft is reflected in the elaborate, handmade outfits she wears on stage – each piece a testament to her commitment to fashion and performance. In 2023, she became the runner-up at the \"Berlin New Stand-Up Comedian Award,\" standing out among more than 90 participants. Her comedy style is an entertaining mix of \"camp,\" \"silly,\" and \"good\" and has earned her a reputation as one of Berlin's most exciting and unpredictable performers."
+    }
+  }
+}
