@@ -21,9 +21,13 @@
     "tickets": "Tickets:",
     "ticketsInfo": "Available online or on the door and no one turned away due to lack of funds.",
     "ticketsLabel": "Tickets",
+    "getTickets": "Get Tickets",
     "whoWeAre": "Who we are:",
     "followUs": "Follow us:",
-    "instagram": "Instagram"
+    "instagram": "Instagram",
+    "pressPhotos": "Press Photos",
+    "pressPhotosInfo": "Click any image to download the full resolution version.",
+    "pressPhotoAlt": "Press photo"
   },
   "Shows2023": {
     "show1": "Thursday 27th July 2023 (Theme: Glue)",
@@ -42,6 +46,14 @@
     "show2": "Thursday 11th June 2025 (Theme: Dysmorphia/ Dysphoria)",
     "show3": "Thursday 24th July 2025 (Theme: Birthday)",
     "show4": "Thursday 18th September 2025 (Theme: Magic)"
+  },
+  "Shows2026": {
+    "show1": "Monday 13th April 2026 (Greatest Hits: Lebanon Fundraiser)",
+    "show2": "Thursday 14th May 2026 (Theme: The Wizard of Oz but gay)",
+    "show3": "Saturday 16th May 2026 (Lichtenberg edition)",
+    "show4": "Thursday 25th June 2026 (Theme: Animal Farm but gay)",
+    "show5": "Thursday 23rd July 2026 (Theme: Men in Black but gay)",
+    "show6": "Thursday 18th September 2026 (Theme: Spirited Away but gay)"
   },
   "Bios": {
     "alec": {

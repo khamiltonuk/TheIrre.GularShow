@@ -1,194 +1,254 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "./components/LanguageSwitcher";
+import ShowsTabs from "./components/ShowsTabs";
 
 export default function Home() {
   const t = useTranslations("HomePage");
   const t2023 = useTranslations("Shows2023");
   const t2024 = useTranslations("Shows2024");
   const t2025 = useTranslations("Shows2025");
+  const t2026 = useTranslations("Shows2026");
   const bios = useTranslations("Bios");
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <LanguageSwitcher />
-      <div className="max-w-3xs items-center justify-between font-mono text-sm lg:flex">
+    <>
+      {/* Fixed video background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="fixed inset-0 w-full h-full object-cover -z-10"
+      >
+        <source src="/promo-bg.mp4" type="video/mp4" />
+      </video>
+
+      {/* Hero: full-screen, video visible through it */}
+      <section className="relative h-screen flex flex-col items-center justify-center">
+        <LanguageSwitcher />
         <Image
           src="/irregular_logo.svg"
           alt={t("logoAlt")}
           width={906}
           height={377}
           priority
-          className="mb-8"
+          className="w-2/3 max-w-xl"
         />
-      </div>
-
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/aBoxGnqt0e0?si=wrfp2Xm16-vq9L6H"
-        title={t("videoTitle")}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-      ></iframe>
-
-      <hr className="my-8" />
-
-      <div className="container mx-auto px-4">
-        <p>{t("description")}</p>
-      </div>
-
-      <hr className="my-8" />
-
-      <h3 className="text-2xl font-bold mb-4">{t("shows")}</h3>
-      <ul className="flex w-full justify-between text-center text-sm font-medium text-gray-500">
-        <li className="flex-1">
-          <a href="#2023">2023</a>
-        </li>
-        <li className="flex-1">
-          <a href="#2024">2024</a>
-        </li>
-        <li className="flex-1">
-          <a href="#2025">2025</a>
-        </li>
-        <li className="flex-1 font-bold active">
-          <a href="#2026">2026</a>
-        </li>
-      </ul>
-      <div className="border-t border-gray-300 w-full my-4" id="2023">
-        <h3 className="text-2xl font-bold mb-4">{t("shows2023")}</h3>
-        <ul>
-          <li>{t2023("show1")}</li>
-          <li>{t2023("show2")}</li>
-          <li>{t2023("show3")}</li>
-          <li>{t2023("show4")}</li>
-        </ul>
-      </div>
-      <div className="border-t border-gray-300 w-full my-4" id="2024">
-        <h3 className="text-2xl font-bold mb-4">{t("shows2024")}</h3>
-        <ul>
-          <li>{t2024("show1")}</li>
-          <li>{t2024("show2")}</li>
-          <li>{t2024("show3")}</li>
-          <li>{t2024("show4")}</li>
-        </ul>
-      </div>
-      <div className="border-t border-gray-300 w-full my-4" id="2025">
-        <h3 className="text-2xl font-bold mb-4">{t("shows2025")}</h3>
-        <ul>
-          <li>{t2025("show1")}</li>
-          <li>{t2025("show2")}</li>
-          <li>{t2025("show3")}</li>
-          <li>{t2025("show4")}</li>
-        </ul>
-      </div>
-      <div className="border-t border-gray-300 w-full my-4" id="2026">
-        <h3 className="text-2xl font-bold mb-4">{t("shows2026")}</h3>
-        <p>{t("tbc")}</p>
-      </div>
-
-      <hr className="my-8" />
-
-      <h3 className="text-2xl font-bold mb-4">{t("time")}</h3>
-      <p>{t("doors")}</p>
-      <p>{t("showStarts")}</p>
-
-      <hr className="my-8" />
-
-      <h3 className="text-2xl font-bold mb-4">{t("where")}</h3>
-      <p>{t("venue")}</p>
-
-      <hr className="my-8" />
-
-      <h3 className="text-2xl font-bold mb-4">{t("tickets")}</h3>
-      <p>{t("ticketsInfo")}</p>
-      <a
-        href="https://www.eventbrite.de/cc/the-irregular-show-sason-3-4272873"
-        className="m-8 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 dark:hover:border-neutral-700 dark:hover:bg-neutral-800/30"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="sr-only">{t("ticketsLabel")}</span>
-        <Image
-          className=""
-          src="/eventbrite_logo.svg"
-          alt="Eventbrite Logo"
-          width={145}
-          height={28}
-          priority
-        ></Image>
-      </a>
-
-      <hr className="my-8" />
-
-      <h3 className="text-2xl font-bold mb-4">{t("whoWeAre")}</h3>
-      <h2 className="text-xl font-bold mb-4 mt-8">{bios("alec.name")}</h2>
-      <Image
-        className="w-full md:w-1/8 mb-8"
-        src="/AlecMballz.png"
-        alt="Alec M ballz"
-        width={540}
-        height={960}
-        priority
-      ></Image>
-      <p className="w-full md:w-1/2">
-        {bios("alec.bio")}
         <a
-          href="https://www.instagram.com/alecmballz/?hl=en"
+          href="https://www.eventbrite.de/cc/the-irregular-show-4th-season-4829069?aff=odclrlmcfto"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-600 hover:underline visited:text-purple-600"
+          className="mt-8 px-10 py-4 text-xl font-bold font-hanson tracking-wide text-black bg-white rounded-full hover:bg-white/80 transition-colors"
         >
-          {t("instagram")}
+          {t("getTickets")}
         </a>
-      </p>
-      <h2 className="text-xl font-bold mb-4 mt-8">{bios("kristian.name")}</h2>
-      <Image
-        className="w-full md:w-1/8 mb-8"
-        src="/Kristian.png"
-        alt="Kristian"
-        width={540}
-        height={960}
-        priority
-      ></Image>
-      <p className="w-full md:w-1/2">
-        {bios("kristian.bio")}
-        <a
-          href="https://www.instagram.com/artfromkristian/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 hover:underline visited:text-purple-600"
-        >
-          {t("instagram")}
-        </a>
-      </p>
+        {/* Scroll hint */}
+        <div className="absolute bottom-8 flex flex-col items-center gap-2 text-white/60 text-sm animate-bounce">
+          <span>↓</span>
+        </div>
+      </section>
 
-      <hr className="my-8" />
+      {/* Content panel: slides up over the video as you scroll */}
+      <main className="relative bg-black/90 text-white flex flex-col items-center px-8 py-16 gap-0 rounded-t-3xl">
+        <div className="w-full max-w-2xl flex flex-col gap-8">
+          <div className="w-full">
+            <p>{t("description")}</p>
+          </div>
 
-      <h3 className="text-2xl font-bold mb-4">{t("followUs")}</h3>
+          <hr className="border-white/20 w-full" />
 
-      <ul className="flex w-full justify-center align-center text-center text-sm font-medium text-gray-500">
-        <li className="flex-1 flex text-center justify-center">
-          <a
-            href="https://www.instagram.com/the.irre.gular.show/"
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 dark:hover:border-neutral-700 dark:hover:bg-neutral-800/30"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="sr-only">{t("instagram")}</span>
+          <div className="w-full">
+            <ShowsTabs
+              heading={t("shows")}
+              shows2023={t("shows2023")}
+              shows2024={t("shows2024")}
+              shows2025={t("shows2025")}
+              shows2026={t("shows2026")}
+              shows2023Items={[
+                t2023("show1"),
+                t2023("show2"),
+                t2023("show3"),
+                t2023("show4"),
+              ]}
+              shows2024Items={[
+                t2024("show1"),
+                t2024("show2"),
+                t2024("show3"),
+                t2024("show4"),
+              ]}
+              shows2025Items={[
+                t2025("show1"),
+                t2025("show2"),
+                t2025("show3"),
+                t2025("show4"),
+              ]}
+              shows2026Items={[
+                t2026("show1"),
+                t2026("show2"),
+                t2026("show3"),
+                t2026("show4"),
+                t2026("show5"),
+                t2026("show6"),
+              ]}
+              shows2026Links={[
+                "https://www.eventbrite.de/e/the-irregular-show-4th-season-tickets-1986083288580",
+                "https://www.eventbrite.de/e/the-irregular-show-4th-season-tickets-1986083288580",
+                "https://www.eventbrite.de/e/the-irregular-show-lichtenberg-registrierung-1986208754853",
+                "https://www.eventbrite.de/e/the-irregular-show-4th-season-tickets-1986084173226",
+                "https://www.eventbrite.de/e/the-irregular-show-4th-season-tickets-1986084347748",
+                "https://www.eventbrite.de/e/the-irregular-show-4th-season-tickets-1986084581447",
+              ]}
+            />
+          </div>
+
+          <hr className="border-white/20 w-full" />
+
+          <div className="w-full">
+            <h3 className="text-2xl font-bold font-hanson mb-4">{t("time")}</h3>
+            <p>{t("doors")}</p>
+            <p>{t("showStarts")}</p>
+          </div>
+
+          <hr className="border-white/20 w-full" />
+
+          <div className="w-full">
+            <h3 className="text-2xl font-bold font-hanson mb-4">{t("where")}</h3>
+            <p>{t("venue")}</p>
+          </div>
+
+          <hr className="border-white/20 w-full" />
+
+          <div className="w-full">
+            <h3 className="text-2xl font-bold font-hanson mb-4">{t("tickets")}</h3>
+            <p className="mb-4">{t("ticketsInfo")}</p>
+            <a
+              href="https://www.eventbrite.de/cc/the-irregular-show-4th-season-4829069?aff=odclrlmcfto"
+              className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white/60 hover:bg-white/10"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="sr-only">{t("ticketsLabel")}</span>
+              <Image
+                src="/eventbrite_logo.svg"
+                alt="Eventbrite Logo"
+                width={145}
+                height={28}
+                priority
+                className="inline-block"
+              />
+            </a>
+          </div>
+
+          <hr className="border-white/20 w-full" />
+
+          <div className="w-full">
+            <h3 className="text-2xl font-bold font-hanson mb-8">{t("whoWeAre")}</h3>
+
+            <h2 className="text-xl font-bold font-hanson mb-4">{bios("alec.name")}</h2>
             <Image
-              className="h-8 w-8"
-              src="/instagram.svg"
-              alt="Instagram Logo"
-              width={906}
-              height={377}
+              className="w-full md:w-64 mb-4 rounded-lg"
+              src="/AlecMballz.png"
+              alt="Alec M ballz"
+              width={540}
+              height={960}
               priority
             />
-          </a>
-        </li>
-      </ul>
-    </main>
+            <p className="w-full md:w-3/4 mb-4">
+              {bios("alec.bio")}
+            </p>
+            <a
+              href="https://www.instagram.com/alecmballz/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-8 group flex items-center gap-2 px-4 py-2 border border-white/40 rounded-full text-sm font-semibold hover:bg-white hover:text-black transition-colors w-fit"
+            >
+              <Image src="/instagram.svg" alt="" width={16} height={16} className="h-4 w-4 invert-on-parent-hover" />
+              {t("instagram")}
+            </a>
+
+            <h2 className="text-xl font-bold font-hanson mb-4">{bios("kristian.name")}</h2>
+            <Image
+              className="w-full md:w-64 mb-4 rounded-lg"
+              src="/Kristian.png"
+              alt="Kristian"
+              width={540}
+              height={960}
+              priority
+            />
+            <p className="w-full md:w-3/4 mb-4">
+              {bios("kristian.bio")}
+            </p>
+            <a
+              href="https://www.instagram.com/artfromkristian/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-2 px-4 py-2 border border-white/40 rounded-full text-sm font-semibold hover:bg-white hover:text-black transition-colors w-fit"
+            >
+              <Image src="/instagram.svg" alt="" width={16} height={16} className="h-4 w-4 invert-on-parent-hover" />
+              {t("instagram")}
+            </a>
+          </div>
+
+          <hr className="border-white/20 w-full" />
+
+          <div className="w-full">
+            <h3 className="text-2xl font-bold font-hanson mb-2">{t("pressPhotos")}</h3>
+            <p className="text-white/60 text-sm mb-6">{t("pressPhotosInfo")}</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {[1,2,3,4,5].map((n) => (
+                <a key={n} href={`/press/press-${n}.jpg`} target="_blank" rel="noopener noreferrer" className="group overflow-hidden rounded-lg">
+                  <Image
+                    src={`/press/press-${n}.jpg`}
+                    alt={`${t("pressPhotoAlt")} ${n}`}
+                    width={400}
+                    height={300}
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </a>
+              ))}
+            </div>
+          </div>
+
+          <hr className="border-white/20 w-full" />
+
+          <div className="w-full pb-8">
+            <h3 className="text-2xl font-bold font-hanson mb-4">{t("followUs")}</h3>
+            <div className="flex gap-4">
+            <a
+              href="https://www.instagram.com/the.irre.gular.show/"
+              className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white hover:bg-white"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="sr-only">{t("instagram")}</span>
+              <Image
+                className="h-8 w-8 invert-on-parent-hover"
+                src="/instagram.svg"
+                alt="Instagram Logo"
+                width={32}
+                height={32}
+                priority
+              />
+            </a>
+            <a
+              href="#"
+              className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white hover:bg-white"
+            >
+              <span className="sr-only">Telegram</span>
+              <Image
+                className="h-8 w-8 invert-on-parent-hover"
+                src="/telegram.svg"
+                alt="Telegram Logo"
+                width={32}
+                height={32}
+                priority
+              />
+            </a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </>
   );
 }

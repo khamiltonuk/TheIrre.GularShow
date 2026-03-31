@@ -1,5 +1,14 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'Hanson';
+  src: url('/fonts/Hanson-Bold.woff2') format('woff2'),
+       url('/fonts/Hanson-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
   --background-image-gradient-conic: conic-gradient(
@@ -26,24 +35,27 @@
   }
 }
 
-@utility text-balance {
-  text-wrap: balance;
+@utility font-hanson {
+  font-family: 'Hanson', sans-serif;
+}
+
+@utility invert-on-parent-hover {
+  .group:hover & {
+    filter: invert(1);
+  }
 }
 
 @layer utilities {
   :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 255, 255, 255;
+  }
+
+  html, body {
+    overflow-x: hidden;
   }
 
   body {
     color: rgb(var(--foreground-rgb));
-    background: linear-gradient(
-        to bottom,
-        transparent,
-        rgb(var(--background-end-rgb))
-      )
-      rgb(var(--background-start-rgb));
+    background: transparent;
   }
 }

@@ -21,9 +21,13 @@
     "tickets": "Tickets:",
     "ticketsInfo": "Online oder an der Abendkasse erhältlich - niemand wird wegen fehlendem Geld abgewiesen.",
     "ticketsLabel": "Tickets",
+    "getTickets": "Tickets kaufen",
     "whoWeAre": "Wer wir sind:",
     "followUs": "Folge uns:",
-    "instagram": "Instagram"
+    "instagram": "Instagram",
+    "pressPhotos": "Pressefotos",
+    "pressPhotosInfo": "Klicke auf ein Bild, um die Vollauflösung herunterzuladen.",
+    "pressPhotoAlt": "Pressefoto"
   },
   "Shows2023": {
     "show1": "Donnerstag, 27. Juli 2023 (Thema: Kleber)",
@@ -42,6 +46,14 @@
     "show2": "Donnerstag, 11. Juni 2025 (Thema: Dysmorphie/Dysphorie)",
     "show3": "Donnerstag, 24. Juli 2025 (Thema: Geburtstag)",
     "show4": "Donnerstag, 18. September 2025 (Thema: Magie)"
+  },
+  "Shows2026": {
+    "show1": "Montag, 13. April 2026 (Greatest Hits: Lebanon Fundraiser)",
+    "show2": "Donnerstag, 14. Mai 2026 (Theme: The Wizard of Oz but gay)",
+    "show3": "Samstag, 16. Mai 2026 (Lichtenberg Edition)",
+    "show4": "Donnerstag, 25. Juni 2026 (Theme: Animal Farm but gay)",
+    "show5": "Donnerstag, 23. Juli 2026 (Theme: Men in Black but gay)",
+    "show6": "Donnerstag, 18. September 2026 (Theme: Spirited Away but gay)"
   },
   "Bios": {
     "alec": {
