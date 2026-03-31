@@ -152,7 +152,7 @@ export default function Home() {
               alt="Alec M ballz"
               width={540}
               height={960}
-              priority
+              loading="lazy"
             />
             <p className="w-full md:w-3/4 mb-4">
               {bios("alec.bio")}
@@ -174,7 +174,7 @@ export default function Home() {
               alt="Kristian"
               width={540}
               height={960}
-              priority
+              loading="lazy"
             />
             <p className="w-full md:w-3/4 mb-4">
               {bios("kristian.bio")}
@@ -199,10 +199,11 @@ export default function Home() {
               {[1,2,3,4,5].map((n) => (
                 <a key={n} href={`/press/press-${n}.jpg`} target="_blank" rel="noopener noreferrer" className="group overflow-hidden rounded-lg">
                   <Image
-                    src={`/press/press-${n}.jpg`}
+                    src={`/press/thumbnails/press-${n}.jpg`}
                     alt={`${t("pressPhotoAlt")} ${n}`}
-                    width={400}
-                    height={300}
+                    width={800}
+                    height={600}
+                    loading="lazy"
                     className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 </a>
@@ -228,7 +229,6 @@ export default function Home() {
                 alt="Instagram Logo"
                 width={32}
                 height={32}
-                priority
               />
             </a>
             <a
@@ -242,7 +242,6 @@ export default function Home() {
                 alt="Telegram Logo"
                 width={32}
                 height={32}
-                priority
               />
             </a>
             </div>
