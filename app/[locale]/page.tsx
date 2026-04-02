@@ -113,14 +113,18 @@ export default function Home() {
           <hr className="border-white/20 w-full" />
 
           <div className="w-full">
-            <h3 className="text-2xl font-bold font-hanson mb-4">{t("where")}</h3>
+            <h3 className="text-2xl font-bold font-hanson mb-4">
+              {t("where")}
+            </h3>
             <p>{t("venue")}</p>
           </div>
 
           <hr className="border-white/20 w-full" />
 
           <div className="w-full">
-            <h3 className="text-2xl font-bold font-hanson mb-4">{t("tickets")}</h3>
+            <h3 className="text-2xl font-bold font-hanson mb-4">
+              {t("tickets")}
+            </h3>
             <p className="mb-4">{t("ticketsInfo")}</p>
             <a
               href="https://www.eventbrite.de/cc/the-irregular-show-4th-season-4829069?aff=odclrlmcfto"
@@ -143,9 +147,13 @@ export default function Home() {
           <hr className="border-white/20 w-full" />
 
           <div className="w-full">
-            <h3 className="text-2xl font-bold font-hanson mb-8">{t("whoWeAre")}</h3>
+            <h3 className="text-2xl font-bold font-hanson mb-8">
+              {t("whoWeAre")}
+            </h3>
 
-            <h2 className="text-xl font-bold font-hanson mb-4">{bios("alec.name")}</h2>
+            <h2 className="text-xl font-bold font-hanson mb-4">
+              {bios("alec.name")}
+            </h2>
             <Image
               className="w-full md:w-64 mb-4 rounded-lg"
               src="/AlecMballz.png"
@@ -154,20 +162,26 @@ export default function Home() {
               height={960}
               loading="lazy"
             />
-            <p className="w-full md:w-3/4 mb-4">
-              {bios("alec.bio")}
-            </p>
+            <p className="w-full md:w-3/4 mb-4">{bios("alec.bio")}</p>
             <a
               href="https://www.instagram.com/alecmballz/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
               className="mb-8 group flex items-center gap-2 px-4 py-2 border border-white/40 rounded-full text-sm font-semibold hover:bg-white hover:text-black transition-colors w-fit"
             >
-              <Image src="/instagram.svg" alt="" width={16} height={16} className="h-4 w-4 invert-on-parent-hover" />
+              <Image
+                src="/instagram.svg"
+                alt=""
+                width={16}
+                height={16}
+                className="h-4 w-4 invert-on-parent-hover"
+              />
               {t("instagram")}
             </a>
 
-            <h2 className="text-xl font-bold font-hanson mb-4">{bios("kristian.name")}</h2>
+            <h2 className="text-xl font-bold font-hanson mb-4">
+              {bios("kristian.name")}
+            </h2>
             <Image
               className="w-full md:w-64 mb-4 rounded-lg"
               src="/Kristian.png"
@@ -176,16 +190,20 @@ export default function Home() {
               height={960}
               loading="lazy"
             />
-            <p className="w-full md:w-3/4 mb-4">
-              {bios("kristian.bio")}
-            </p>
+            <p className="w-full md:w-3/4 mb-4">{bios("kristian.bio")}</p>
             <a
               href="https://www.instagram.com/artfromkristian/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 px-4 py-2 border border-white/40 rounded-full text-sm font-semibold hover:bg-white hover:text-black transition-colors w-fit"
             >
-              <Image src="/instagram.svg" alt="" width={16} height={16} className="h-4 w-4 invert-on-parent-hover" />
+              <Image
+                src="/instagram.svg"
+                alt=""
+                width={16}
+                height={16}
+                className="h-4 w-4 invert-on-parent-hover"
+              />
               {t("instagram")}
             </a>
           </div>
@@ -193,11 +211,19 @@ export default function Home() {
           <hr className="border-white/20 w-full" />
 
           <div className="w-full">
-            <h3 className="text-2xl font-bold font-hanson mb-2">{t("pressPhotos")}</h3>
+            <h3 className="text-2xl font-bold font-hanson mb-2">
+              {t("pressPhotos")}
+            </h3>
             <p className="text-white/60 text-sm mb-6">{t("pressPhotosInfo")}</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {[1,2,3,4,5].map((n) => (
-                <a key={n} href={`/press/press-${n}.jpg`} target="_blank" rel="noopener noreferrer" className="group overflow-hidden rounded-lg">
+              {[1, 2, 3, 4, 5].map((n) => (
+                <a
+                  key={n}
+                  href={`/press/press-${n}.jpg`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group overflow-hidden rounded-lg"
+                >
                   <Image
                     src={`/press/thumbnails/press-${n}.jpg`}
                     alt={`${t("pressPhotoAlt")} ${n}`}
@@ -214,36 +240,40 @@ export default function Home() {
           <hr className="border-white/20 w-full" />
 
           <div className="w-full pb-8">
-            <h3 className="text-2xl font-bold font-hanson mb-4">{t("followUs")}</h3>
+            <h3 className="text-2xl font-bold font-hanson mb-4">
+              {t("followUs")}
+            </h3>
             <div className="flex gap-4">
-            <a
-              href="https://www.instagram.com/the.irre.gular.show/"
-              className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white hover:bg-white"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="sr-only">{t("instagram")}</span>
-              <Image
-                className="h-8 w-8 invert-on-parent-hover"
-                src="/instagram.svg"
-                alt="Instagram Logo"
-                width={32}
-                height={32}
-              />
-            </a>
-            <a
-              href="#"
-              className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white hover:bg-white"
-            >
-              <span className="sr-only">Telegram</span>
-              <Image
-                className="h-8 w-8 invert-on-parent-hover"
-                src="/telegram.svg"
-                alt="Telegram Logo"
-                width={32}
-                height={32}
-              />
-            </a>
+              <a
+                href="https://www.instagram.com/the.irre.gular.show/"
+                className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white hover:bg-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="sr-only">{t("instagram")}</span>
+                <Image
+                  className="h-8 w-8 invert-on-parent-hover"
+                  src="/instagram.svg"
+                  alt="Instagram Logo"
+                  width={32}
+                  height={32}
+                />
+              </a>
+              <a
+                href="https://t.me/+mpmWxYB2_0c0Yzcy"
+                className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white hover:bg-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="sr-only">Telegram</span>
+                <Image
+                  className="h-8 w-8 invert-on-parent-hover"
+                  src="/telegram.svg"
+                  alt="Telegram Logo"
+                  width={32}
+                  height={32}
+                />
+              </a>
             </div>
           </div>
         </div>
