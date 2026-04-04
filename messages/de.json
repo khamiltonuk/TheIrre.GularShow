@@ -1,7 +1,8 @@
 {
   "Metadata": {
-    "title": "The Irregular Show",
-    "description": "Drag-Show"
+    "title": "Die Irre.Gular Show – Queeres Kabarett & Drag in Berlin",
+    "description": "Berlins queere Kabarett-Varietéshow — Drag, Zirkus, Feuer & Comedy im Nirgendwo, Friedrichshain. Monatlich Mai–September. Ein sicherer, inklusiver Raum für queere und neurodivergente Menschen.",
+    "keywords": "queere Show Berlin, Drag Show Berlin, queere Events Berlin, LGBTQ Kabarett Berlin, queer Friedrichshain, Drag Berlin, queere Varietéshow, queeres Nachtleben Berlin, inklusive Events Berlin, neurodivergent freundlich Berlin"
   },
   "HomePage": {
     "logoAlt": "The Irregular Show Logo",
@@ -48,12 +49,11 @@
     "show4": "Donnerstag, 18. September 2025 (Thema: Magie)"
   },
   "Shows2026": {
-    "show1": "Montag, 13. April 2026 (Greatest Hits: Lebanon Fundraiser)",
-    "show2": "Donnerstag, 14. Mai 2026 (Theme: The Wizard of Oz but gay)",
-    "show3": "Samstag, 16. Mai 2026 (Lichtenberg Edition)",
-    "show4": "Donnerstag, 25. Juni 2026 (Theme: Animal Farm but gay)",
-    "show5": "Donnerstag, 23. Juli 2026 (Theme: Men in Black but gay)",
-    "show6": "Donnerstag, 18. September 2026 (Theme: Spirited Away but gay)"
+    "show1": "Donnerstag, 14. Mai 2026 (Theme: The Wizard of Oz but gay)",
+    "show2": "Samstag, 16. Mai 2026 (Lichtenberg Edition)",
+    "show3": "Donnerstag, 25. Juni 2026 (Theme: Animal Farm but gay)",
+    "show4": "Donnerstag, 23. Juli 2026 (Theme: Men in Black but gay)",
+    "show5": "Donnerstag, 18. September 2026 (Theme: Spirited Away but gay)"
   },
   "Bios": {
     "alec": {

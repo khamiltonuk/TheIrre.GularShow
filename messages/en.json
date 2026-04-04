@@ -1,7 +1,8 @@
 {
   "Metadata": {
-    "title": "The Irregular Show",
-    "description": "Drag show"
+    "title": "The Irre.Gular Show – Queer Cabaret & Drag in Berlin",
+    "description": "Berlin's queer cabaret variety show — drag, circus, fire & comedy at Nirgendwo, Friedrichshain. Monthly May–September. A safe, inclusive space for queer and neurodivergent people.",
+    "keywords": "queer show Berlin, drag show Berlin, queer events Berlin, LGBTQ cabaret Berlin, queer Friedrichshain, drag Berlin, queer variety show, queer nightlife Berlin, inclusive events Berlin, neurodivergent friendly Berlin"
   },
   "HomePage": {
     "logoAlt": "The Irregular Show Logo",
@@ -48,12 +49,11 @@
     "show4": "Thursday 18th September 2025 (Theme: Magic)"
   },
   "Shows2026": {
-    "show1": "Monday 13th April 2026 (Greatest Hits: Lebanon Fundraiser)",
-    "show2": "Thursday 14th May 2026 (Theme: The Wizard of Oz but gay)",
-    "show3": "Saturday 16th May 2026 (Lichtenberg edition)",
-    "show4": "Thursday 25th June 2026 (Theme: Animal Farm but gay)",
-    "show5": "Thursday 23rd July 2026 (Theme: Men in Black but gay)",
-    "show6": "Thursday 18th September 2026 (Theme: Spirited Away but gay)"
+    "show1": "Thursday 14th May 2026 (Theme: The Wizard of Oz but gay)",
+    "show2": "Saturday 16th May 2026 (Lichtenberg edition)",
+    "show3": "Thursday 25th June 2026 (Theme: Animal Farm but gay)",
+    "show4": "Thursday 23rd July 2026 (Theme: Men in Black but gay)",
+    "show5": "Thursday 18th September 2026 (Theme: Spirited Away but gay)"
   },
   "Bios": {
     "alec": {

@@ -89,10 +89,8 @@ export default function Home() {
                 t2026("show3"),
                 t2026("show4"),
                 t2026("show5"),
-                t2026("show6"),
               ]}
               shows2026Links={[
-                "https://www.eventbrite.de/e/the-irregular-show-4th-season-tickets-1986083288580",
                 "https://www.eventbrite.de/e/the-irregular-show-4th-season-tickets-1986083288580",
                 "https://www.eventbrite.de/e/the-irregular-show-lichtenberg-registrierung-1986208754853",
                 "https://www.eventbrite.de/e/the-irregular-show-4th-season-tickets-1986084173226",
