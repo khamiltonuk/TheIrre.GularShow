@@ -19,6 +19,7 @@
     "showStarts": "20:00 Show starts",
     "where": "Where:",
     "venue": "Nirgendwo, Helsingforser Str. 10, 10243 Berlin (Next to Berghain)",
+    "venueAlt": "* Lichtenberg edition: Interkosmos, Fanningerstr. 47, 10365 Berlin",
     "tickets": "Tickets:",
     "ticketsInfo": "Available online or on the door and no one turned away due to lack of funds.",
     "ticketsLabel": "Tickets",
@@ -50,7 +51,7 @@
   },
   "Shows2026": {
     "show1": "Thursday 14th May 2026 (Theme: The Wizard of Oz but gay)",
-    "show2": "Saturday 16th May 2026 (Lichtenberg edition)",
+    "show2": "Saturday 16th May 2026 (Lichtenberg edition) *",
     "show3": "Thursday 25th June 2026 (Theme: Animal Farm but gay)",
     "show4": "Thursday 23rd July 2026 (Theme: Men in Black but gay)",
     "show5": "Thursday 18th September 2026 (Theme: Spirited Away but gay)"

@@ -114,7 +114,10 @@ export default function Home() {
             <h3 className="text-2xl font-bold font-hanson mb-4">
               {t("where")}
             </h3>
-            <p>{t("venue")}</p>
+            <a href="https://maps.google.com/?q=Nirgendwo,+Helsingforser+Str.+10,+10243+Berlin" target="_blank" rel="noopener noreferrer" className="hover:underline">{t("venue")}</a>
+            <p className="text-white/60 text-sm mt-2">
+              <a href="https://maps.google.com/?q=Interkosmos,+Fanningerstr.+47,+10365+Berlin" target="_blank" rel="noopener noreferrer" className="hover:underline">{t("venueAlt")}</a>
+            </p>
           </div>
 
           <hr className="border-white/20 w-full" />
