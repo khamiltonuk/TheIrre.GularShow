@@ -64,7 +64,7 @@ export default function ShowsTabs({
                 href={shows2026Links[i] ?? "#"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="shrink-0 px-3 py-1 text-sm font-semibold border border-white/40 rounded-full hover:bg-white hover:text-black transition-colors"
+                className="shrink-0 px-3 py-1 text-sm font-semibold bg-white/10 hover:bg-white hover:text-black transition-colors btn-polygon btn-polygon-hover"
               >
                 Tickets →
               </a>

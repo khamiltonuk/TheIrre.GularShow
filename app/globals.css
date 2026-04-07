@@ -45,6 +45,19 @@
   }
 }
 
+@utility btn-polygon {
+  clip-path: polygon(0% 8%, 4% 0%, 96% 2%, 100% 10%, 98% 90%, 94% 100%, 6% 98%, 0% 92%);
+  transition: clip-path 0.4s ease;
+  border-radius: 0;
+  border: none;
+}
+
+@utility btn-polygon-hover {
+  &:hover {
+    clip-path: polygon(3% 0%, 97% 4%, 100% 15%, 96% 98%, 5% 100%, 0% 88%, 2% 12%, 100% 0%);
+  }
+}
+
 @layer utilities {
   :root {
     --foreground-rgb: 255, 255, 255;

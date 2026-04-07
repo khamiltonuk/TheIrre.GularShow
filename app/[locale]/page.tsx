@@ -39,7 +39,7 @@ export default function Home() {
           href="https://www.eventbrite.de/cc/the-irregular-show-4th-season-4829069?aff=odclrlmcfto"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 px-10 py-4 text-xl font-bold font-hanson tracking-wide text-black bg-white rounded-full hover:bg-white/80 transition-colors"
+          className="mt-8 px-10 py-4 text-xl font-bold font-hanson tracking-wide text-black bg-white btn-polygon btn-polygon-hover"
         >
           {t("getTickets")}
         </a>
@@ -129,7 +129,7 @@ export default function Home() {
             <p className="mb-4">{t("ticketsInfo")}</p>
             <a
               href="https://www.eventbrite.de/cc/the-irregular-show-4th-season-4829069?aff=odclrlmcfto"
-              className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white/60 hover:bg-white/10"
+              className="group bg-white/10 px-5 py-4 transition-colors hover:bg-white/20 btn-polygon btn-polygon-hover"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -168,7 +168,7 @@ export default function Home() {
               href="https://www.instagram.com/alecmballz/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
-              className="mb-8 group flex items-center gap-2 px-4 py-2 border border-white/40 rounded-full text-sm font-semibold hover:bg-white hover:text-black transition-colors w-fit"
+              className="mb-8 group flex items-center gap-2 px-4 py-2 bg-white/10 text-sm font-semibold hover:bg-white hover:text-black transition-colors w-fit btn-polygon btn-polygon-hover"
             >
               <Image
                 src="/instagram.svg"
@@ -196,7 +196,7 @@ export default function Home() {
               href="https://www.instagram.com/artfromkristian/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex items-center gap-2 px-4 py-2 border border-white/40 rounded-full text-sm font-semibold hover:bg-white hover:text-black transition-colors w-fit"
+              className="group flex items-center gap-2 px-4 py-2 bg-white/10 text-sm font-semibold hover:bg-white hover:text-black transition-colors w-fit btn-polygon btn-polygon-hover"
             >
               <Image
                 src="/instagram.svg"
@@ -247,7 +247,7 @@ export default function Home() {
             <div className="flex gap-4">
               <a
                 href="https://www.instagram.com/the.irre.gular.show/"
-                className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white hover:bg-white"
+                className="group bg-white/10 px-5 py-4 transition-colors hover:bg-white btn-polygon btn-polygon-hover"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -262,7 +262,7 @@ export default function Home() {
               </a>
               <a
                 href="https://t.me/+mpmWxYB2_0c0Yzcy"
-                className="group rounded-lg border border-white/20 px-5 py-4 transition-colors hover:border-white hover:bg-white"
+                className="group bg-white/10 px-5 py-4 transition-colors hover:bg-white btn-polygon btn-polygon-hover"
                 target="_blank"
                 rel="noopener noreferrer"
               >
