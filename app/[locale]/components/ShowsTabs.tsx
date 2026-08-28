@@ -60,14 +60,16 @@ export default function ShowsTabs({
           {shows2026Items.map((item, i) => (
             <li key={i} className="flex items-center justify-between gap-4 border-b border-white/10 pb-3">
               <span>{item}</span>
-              <a
-                href={shows2026Links[i] ?? "#"}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="shrink-0 px-3 py-1 text-sm font-semibold bg-white/10 hover:bg-white hover:text-black transition-colors btn-polygon btn-polygon-hover"
-              >
-                Tickets →
-              </a>
+              {shows2026Links[i] && (
+                <a
+                  href={shows2026Links[i]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="shrink-0 px-3 py-1 text-sm font-semibold bg-white/10 hover:bg-white hover:text-black transition-colors btn-polygon btn-polygon-hover"
+                >
+                  Tickets →
+                </a>
+              )}
             </li>
           ))}
         </ul>
